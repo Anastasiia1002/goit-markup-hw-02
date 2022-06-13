@@ -1,0 +1,175 @@
+:root{
+    --primary-text-color: #757575;
+    /* var(--primary-text-color) */
+    --title-text-color:  #212121;
+    /* var(--title-text-color) */
+    --accent-color:  #2196F3; 
+    /* var(--accent-color) */
+    --primary-white-color: #FFFFFF;
+    /* var(--primary-white-color) */
+}
+
+body {
+    color: #757575;
+    background-color: var(--primary-white-color);
+     font-family: 'Roboto', sans-serif; 
+    letter-spacing: 0.03em;
+}
+.list {
+    list-style: none;
+}
+.logo{
+color: #2196F3;
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+    font-size: 26px;
+    line-height: 1.15;
+}
+.studio {
+color: #000000;
+font-family: 'Raleway', sans-serif;
+}
+
+/* site nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover, .site-nav .link:focus {
+color: var(--accent-color);
+}
+.site-nav .current{
+color: var(--accent-color);
+}
+.contact-link{
+color: var(--primary-text-color);   
+}
+.list{
+    letter-spacing: 0.02em;
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 1.15;
+}
+
+/* hero section */
+.hero-title{
+color: var(--primary-white-color);
+font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4x;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.section-title{
+color: var(--title-text-color);
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+.button-primary {
+color:var(--primary-white-color);
+background-color:var(--accent-color);
+font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+  
+    letter-spacing: 0.06em;
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+/* переваги / feature-list */
+
+.feature-list .title{
+    color:  var(--title-text-color);
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+       
+}
+.feature-list p{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+}
+
+
+/* чим займаються */
+
+
+ /* наша команда */
+.team-list h3 {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.18;
+        color: var(--title-text-color);
+}
+.team-list p {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+}
+
+ /* підвал */
+ address {
+     
+     background-color:#2F303A;
+ }
+ .footer-nav {
+ list-style: none;
+}
+.footer-nav a{
+color: var(--primary-white-color);
+font-weight: 400;
+    font-size: 14px;
+    line-height: 2;
+  
+ }
+
+ .footer-nav .contact-link{
+color:rgba(255, 255, 255, 0.6);
+ }
+/* .footer-nav .link:hover,
+.footer-nav .link:focus {
+    color: var(--accent-color);
+} */
+/* -------------------------------------Портфолио--------- */
+.samp-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+
+
+}
+.sample h2{
+        color: var(--title-text-color);
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+}
+.sample p {
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.03em;
+}
+.samp-button:hover,
+.samp-button:focus {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+
+}
+/* заголовки 212121 */
+/* акцентний колір (веб) 2196F3 */
+/* колір студіо 000000 */
+/* колір банерного заголовку FFFFFF */
+/*  колір підтексту 757575 */
+/* колір фону для банера та підвалу 2F303A */
+/* фон для команди F5F4FA */
