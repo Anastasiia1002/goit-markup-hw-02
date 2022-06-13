@@ -164,8 +164,11 @@ letter-spacing: 0.03em;
 .samp-button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
+    }
 
-}
+    .pointer{
+        cursor: pointer;
+    }
 /* заголовки 212121 */
 /* акцентний колір (веб) 2196F3 */
 /* колір студіо 000000 */
