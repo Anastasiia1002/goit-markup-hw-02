@@ -59,7 +59,7 @@ text-decoration: none;
 color: var(--primary-white-color);
 font-weight: 900;
     font-size: 44px;
-    line-height: 1.4x;
+    line-height: 1.4;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -155,6 +155,10 @@ text-decoration: none;
      font-size: 26px;
      line-height: 1.15;
      text-decoration: none;
+ }
+ .contact-link:hover, .add-maps:hover,
+ .contact-link:focus, .add-maps:focus {
+     color: var(--accent-color);
  }
  /* .footer-nav .link:hover,
 .footer-nav .link:focus {
